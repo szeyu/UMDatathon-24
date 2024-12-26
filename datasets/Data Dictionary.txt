@@ -1,0 +1,132 @@
+difficulty
+The mean difficulty of mining a new block on blockchain.
+
+estimated_leverage_ratio
+The exchange's open interest divided by their coins reserve which shows how much leverage is used by users on average.
+Increasing in values indicates more investors are taking high leverage risk in the derivative trade.
+
+addresses_count_active
+The number of used addresses to transfer the token. addresses_active_count is the total number of unique addresses that were active (either sender or receiver) on the blockchain in a given window.
+
+addresses_count_sender
+addresses_count_sender is the number of addresses that were active as a sender.
+
+addresses_count_receiver
+addresses_count_receiver is the number of addresses that were active as a receiver.
+
+exchange_whale_ratio
+Find Whale Focused Exchanges with Top 10 Inflows. Looking at the relative size of the top 10 inflows to total inflows, it is possible to discover which exchanges whales use. For example, as Gemini has mostly whales users, it is possible for the price to rise or fall dramatically. This has potential risks, but also the possibility of arbitrage.
+
+coinbase_premium_gap
+Coinbase Premium Gap is calculated as gap between Coinbase price(BTCUSD) and Binance price(BTCUSDT). The higher the premium, the stronger the spot buying pressure from Coinbase.
+
+coinbase_premium_index
+Coinbase Premium Index is calculated as percent difference from Binance price(BTCUSDT) to Coinbase price(BTCUSD).
+
+coinbase_premium_gap_usdt_adjusted
+The coinbase_premium_gap adjusted for USDT-specific liquidity or exchange rate factors. Accounts for discrepancies in USDT valuations.
+
+coinbase_premium_index_usdt_adjusted
+The coinbase_premium_index adjusted for USDT-specific liquidity or exchange rate factors, expressed as a percentage.
+
+taker_buy_volume
+Taker Buy/Sell Stats represent takers' sentiment of which position they are taking in the market. This metric is calculated with perpetual swap trades in each exchange. The unit of return value is USD.
+
+taker_buy_volume is volume that takers buy.
+
+taker_sell_volume
+taker_sell_volume is volume that takers sell. taker_total_volume is the sum of taker_buy_volume and taker_sell_volume.
+
+taker_buy_ratio
+taker_buy_ratio is the ratio of taker_buy_volume divided by taker_total_volume.
+
+taker_sell_ratio
+taker_sell_ratio is the ratio of taker_sell_volume divided by taker_total_volume.
+
+taker_buy_sell_ratio
+taker_buy_sell_ratio is the ratio of taker_buy_volume divided by taker_sell_volume.
+
+blockreward
+The sum of block rewards (including mining or staking rewards and transaction fees).
+
+blockreward_usd
+The sum of block rewards (including mining or staking rewards and transaction fees) in USD.
+
+fees_transaction_mean
+The mean fees per transaction that are paid from executing transactions.
+
+fees_transaction_mean_usd
+The mean fees per transaction that are paid from executing transactions in USD.
+
+fees_transaction_median
+The median fees per transaction that are paid from executing transactions.
+
+fees_transaction_median_usd
+The median fees per transaction that are paid from executing transactions in USD.
+
+miner_supply_ratio
+Miner Supply Ratio is calculated as miner reserve divided by total supply. The metric measures how much tokens are reserved in the miner relative to total supply of the token.
+
+addresses_count_inflow
+This endpoint returns the number of addresses involved in inflow transactions of BTC into mining pool wallets.
+
+addresses_count_outflow
+This endpoint returns the number of addresses involved in outflow transactions of BTC into mining pool wallets.
+
+exchange_supply_ratio
+The ratio of exchange's BTC reserve compared to total supply of BTC.
+
+transactions_count_inflow
+The number of transactions flowing into Bitcoin miners.
+
+transactions_count_outflow
+The number of transactions flowing out of Bitcoin miners.
+
+tokens_transferred_total
+The number of tokens transferred, i.e transaction volume.
+
+tokens_transferred_total is the total number of transferred token.
+
+tokens_transferred_mean
+tokens_transferred_mean is the mean of number of transferred tokens per transaction.
+
+tokens_transferred_median
+tokens_transferred_median is the median of tokens transferred per transaction.
+
+transactions_count_inflow.1
+The number of transactions flowing into Bitcoin exchanges.
+
+transactions_count_outflow.1
+The number of transactions flowing out of Bitcoin exchanges.
+
+long_liquidations
+Liquidations are sum of forced market orders to exit leveraged positions caused by price volatility. Liquidations indicate current price volatility and traders' sentiment which side they had been betting.
+
+Long liquidations are sum of forced market orders to exit leveraged long positions caused by price volatility.
+
+short_liquidations
+Short liquidations are sum of forced market orders to exit leveraged short positions caused by price volatility.
+
+long_liquidations_usd
+long_liquidations_usd in USD.
+
+short_liquidations_usd
+short_liquidations_usd in USD.
+
+open_price
+The price of the first trade of the hour.
+
+high_price
+The highest price of the hour.
+
+low_price
+The lowest price of the hour.
+
+close_price
+The price of the last trade of the hour.
+
+volume
+The total volume of the hour.
+
+open_interest
+Open Interest is the total number of outstanding derivative contracts that have not been settled. It is used to measure the flow of money into the futures market.
